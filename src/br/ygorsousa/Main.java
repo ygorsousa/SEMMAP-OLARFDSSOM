@@ -16,7 +16,7 @@ public class Main {
         double ebL = 0.011776426;
         double enL = 0.007630646;
         double dsbetaL = 0.016263271;
-        double epsilondsL = 0.078087203;
+        double epsilondsL = 0.078087203;  
         double cL = 0.030168021;
         double maxcompL = 34.616710667;
         double lpL = 0.191412335;
@@ -27,7 +27,6 @@ public class Main {
         ArrayList<VerticeMap> verticesTotal = new ArrayList();
         ArrayList<Integer> categoriasTotal = new ArrayList();
         
-        String[] fileNamesTodos = {"path_cold_freiburg_1_cloudy_1_20_semCTG.arff", "path_cold_freiburg_1_night_1_20_semCTG.arff", "path_cold_freiburg_1_night_3_20_semCTG.arff", "path_cold_freiburg_2_cloudy_1_20_semCTG.arff", "path_cold_freiburg_2_cloudy_2_20_semCTG.arff", "path_cold_freiburg_2_cloudy_3_20_semCTG.arff", "path_cold_freiburg_2_night_1_20_semCTG.arff", "path_cold_freiburg_2_night_2_20_semCTG.arff", "path_cold_freiburg_2_night_3_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_2_night_1_20_semCTG.arff", "path_cold_saarbrucken_2_night_2_20_semCTG.arff", "path_cold_saarbrucken_2_night_3_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_3_20_semCTG.arff"};        
         String[] fileNamesTodos3 = {"path_cold_freiburg_1_cloudy_1_20_semCTG.arff", "path_cold_freiburg_1_night_1_20_semCTG.arff", "path_cold_freiburg_1_night_3_20_semCTG.arff", "path_cold_freiburg_2_cloudy_1_20_semCTG.arff", "path_cold_freiburg_2_cloudy_2_20_semCTG.arff", "path_cold_freiburg_2_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_1_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_2_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_3_cloudy_3_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_1_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_2_20_semCTG.arff", "path_cold_saarbrucken_4_cloudy_3_20_semCTG.arff"};
         
         String path = "";
