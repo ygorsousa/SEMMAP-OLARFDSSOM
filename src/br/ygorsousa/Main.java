@@ -16,9 +16,7 @@ public class Main {
         double ebL = 0.011776426;
         double enL = 0.007630646;
         double dsbetaL = 0.016263271;
-        double epsilondsL = 0.078087203;   
-        //double cL = 0.127992075;
-        //double cL = 0.0163;
+        double epsilondsL = 0.078087203;
         double cL = 0.030168021;
         double maxcompL = 34.616710667;
         double lpL = 0.191412335;
